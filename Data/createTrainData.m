@@ -1,4 +1,4 @@
-path = '/home/prathamsolanki/spam-classifier/Data/Emails/Non-Spam/easy_ham/';
+path = 'Emails/Non-Spam/easy_ham/';
 
 count = 1;
 
@@ -11,7 +11,7 @@ for i = 1:1000
 	count++;
 end
 
-path = '/home/prathamsolanki/spam-classifier/Data/Emails/Spam/spam/';
+path = 'Emails/Spam/spam/';
 for j = 1:500
 	filename = strcat(path,num2str(j),'.txt');
 	file_contents = readFile(filename);
@@ -21,7 +21,7 @@ for j = 1:500
 	count++;
 end
 
-path = '/home/prathamsolanki/spam-classifier/Data/Emails/Spam/spam (2)/';
+path = 'Emails/Spam/spam (2)/';
 for k = 1:500
 	filename = strcat(path,num2str(k),'.txt');
 	file_contents = readFile(filename);
