@@ -1,7 +1,0 @@
-# Change into the desired directory containing emails.
-# Paste this command in the terminal.
-# This will rename all the email files with weird names in a 
-# numerical sequence.
-
-
-ls | cat -n | while read n f; do mv "$f" "$n.txt"; done

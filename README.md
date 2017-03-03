@@ -4,4 +4,4 @@
 
 Data taken from http://spamassassin.apache.org/publiccorpus/.
 
-Feel free to update the vocabulary list for high frequency words in a spam email.
+Feel free to update the vocabulary list for high frequency words in spam emails.
